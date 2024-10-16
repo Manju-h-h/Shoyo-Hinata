@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+  
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.space {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #0073e6;
+    outline: none;
+}
+
+.btn {
+    width: 90%;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+</style>
+<body>
+    <div class="container">
+        <h1>Create Account</h1>
+        <form action="#" method="post">
+            <div class="space">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="space">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="space">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="space">
+                <label for="confirm-password">Re-enter Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <br>
+            </div>
+            <a href="abhi.html"><button type="submit" class="btn">Create your Amazon account</button></a>
+        </form>
+    </div>
+</body>
+</html>
